@@ -1,16 +1,25 @@
 <template>
   <NavBar />
-  <div>
+  <div class="content">
     <router-view />
   </div>
+  <FooterItem />
 </template>
 
 <script>
 import NavBar from "./components/NavBar.vue";
+import FooterItem from "./components/FooterItem.vue";
 
 export default {
-  components: { NavBar },
+  components: {
+    NavBar,
+    FooterItem,
+  },
 };
 </script>
 
-<style></style>
+<style lang="scss">
+// .content {
+//   height: 100%;
+// }
+</style>

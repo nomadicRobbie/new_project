@@ -1,30 +1,29 @@
 <template>
-  <div class="head">
-    <header>
-      <h1>heading</h1>
-    </header>
-  </div>
-  <section>
-    <GridPlate />
+  <section class="header">
+    <h1>heading</h1>
   </section>
-  <FooterItem />
+  <section class="content">
+    
+  </section>
+  
 </template>
 
 <script>
-import GridPlate from "@/components/GridPlate.vue";
-import FooterItem from "@/components/FooterItem.vue";
+
 
 export default {
   name: "HomeView",
   components: {
-    GridPlate,
-    FooterItem,
+    
   },
 };
 </script>
 
 <style lang="scss">
-.head {
+.header {
   display: flex;
+}
+.content {
+  height: 100vh;
 }
 </style>
