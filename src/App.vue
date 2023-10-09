@@ -19,7 +19,15 @@ export default {
 </script>
 
 <style lang="scss">
-// .content {
-//   height: 100%;
-// }
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: var(--action-colour);
+  background-color: var(--background-colour);
+  margin: 0;
+}
+
+.header {
+  background-color: #fca311;
+}
 </style>
