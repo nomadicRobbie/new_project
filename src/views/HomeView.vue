@@ -3,18 +3,14 @@
     <h1>heading</h1>
   </section>
   <section class="content">
-    
+    <div id="id" class="class"></div>
   </section>
-  
 </template>
 
 <script>
-
-
 export default {
-  name: "HomeView",
-  components: {
-    
+  data() {
+    return {};
   },
 };
 </script>
@@ -23,6 +19,7 @@ export default {
 .header {
   display: flex;
 }
+
 .content {
   height: 100vh;
 }
